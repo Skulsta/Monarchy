@@ -1,0 +1,56 @@
+body {
+	padding-top: 40px;
+	height: 100%;
+}
+
+.navbar-custom1 {
+	background-color: #221e20;
+	border-color: #221e20;
+}
+
+#logo-small {
+	width: 200px;
+	height: 68px;
+}
+
+.navbar {
+    background-color:#221e20;
+    background-image: none;
+}
+
+
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url(pictures/forsidebilde.png);
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+    /* Adding some grayness */
+    filter: grayscale(100%);
+}
+
+.image {
+	position: center;
+}
+
+
+#scissors {
+	background-image: url(pictures/saks.png);
+}
+
+
+.big-paragraph {
+	opacity: 1; 
+	transform: scaleX(1) scaleY(1) scaleZ(1); 
+	transition: 
+	opacity 50 ms, transform 500ms;
+}
